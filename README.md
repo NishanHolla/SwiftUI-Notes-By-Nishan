@@ -20,7 +20,7 @@ Folder Structure :
 
 Key Files and Their Responsibilities
 
-Here’s a detailed comparison between SwiftUI and Next.js for the given structure, focusing on differences, similarities, and potential points that a newcomer might miss:
+This document compares the key concepts and structures between SwiftUI and Next.js in terms of application architecture, design patterns, and best practices. It provides newcomers with insights into the similarities and differences between both frameworks.
 
 1. Models
 
@@ -100,6 +100,11 @@ Point to Note for Newcomers:
 SwiftUI	Next.js
 HomeView: Uses ParcelListViewModel to fetch and display data.	Home.js: Uses useEffect or getStaticProps to fetch and display data.
 Data is passed via ObservableObject to child views (ParcelDetailView).	Data is passed via props or context to child components.
+
+Conclusion
+	•	Both SwiftUI and Next.js follow a similar architectural pattern based on modern UI frameworks (declarative rendering, state management, and componentization), but the specifics of data flow, networking, and state management differ.
+	•	SwiftUI emphasizes a strongly typed and declarative approach, while Next.js builds on JavaScript/React’s flexible, imperative style.
+	•	Familiarity with data models, state management, and networking is essential in both frameworks, but newcomers should be mindful of SwiftUI’s strict type checking and observable object patterns, and how Next.js uses more flexible patterns with React hooks and JavaScript-based services.
 
 
 Example Flow
