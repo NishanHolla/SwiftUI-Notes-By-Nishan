@@ -50,6 +50,7 @@ ParcelManagementApp/
     ├── Logger.swift             # Logging utility.
     └── Constants.swift          # App-wide constants (e.g., API URLs).
 
+
 Key Files and Their Responsibilities
 
 Models
