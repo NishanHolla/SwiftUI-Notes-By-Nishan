@@ -22,7 +22,7 @@ Key Files and Their Responsibilities
 
 Here’s a detailed comparison between SwiftUI and Next.js for the given structure, focusing on differences, similarities, and potential points that a newcomer might miss:
 
-Models
+1. Models
 
 SwiftUI	Next.js
 Define data models using structs that conform to Codable for JSON decoding.	Define models using TypeScript interfaces or classes for type safety and structure.
@@ -33,7 +33,7 @@ Point to Note for Newcomers:
 	•	SwiftUI has strict type checking and requires all fields in the model to match the JSON structure.
 	•	In Next.js, mismatches won’t throw immediate errors unless TypeScript is used properly with tools like Zod for runtime validation.
 
-Views
+2. Views
 
 SwiftUI	Next.js
 Views are created as SwiftUI structs and are composable. Example: struct HomeView: View { ... }.	Views in Next.js are React functional components. Example: function Home() { return <div>...</div> }.
@@ -44,7 +44,7 @@ Point to Note for Newcomers:
 	•	SwiftUI: Navigation uses a declarative approach (NavigationStack), while React relies on imperative router management (e.g., useRouter.push()).
 	•	Passing data between views in SwiftUI may require ObservableObject or EnvironmentObject, while React uses props or context.
 
-ViewModels
+3. ViewModels
 
 SwiftUI	Next.js
 Business logic and state management live in ObservableObject classes.	Business logic and state management are done with hooks (e.g., useState, useReducer, useContext).
@@ -55,7 +55,7 @@ Point to Note for Newcomers:
 	•	SwiftUI uses @Published for binding, while React relies on manually updating state.
 	•	ObservableObjects require a @StateObject (for ownership) or @ObservedObject (for subscription).
 
-Services
+4. Services
 
 SwiftUI	Next.js
 Networking is done using URLSession. You must construct a URL (URL(string: "...")) and await its response.	Networking uses fetch, axios, or any HTTP client. A URL can be passed directly as a string (no constructor).
@@ -66,7 +66,7 @@ Point to Note for Newcomers:
 	•	In SwiftUI, every URL must be constructed with URL(string: "..."), which can throw errors if the string is invalid.
 	•	In Next.js, direct strings are fine, but you must handle async responses (res.json()).
 
-Resources
+5. Resources
 
 SwiftUI	Next.js
 Assets like images, colors, and fonts are stored in Resources (e.g., Images.xcassets).	Assets are stored in a public folder or imported directly as modules in React components.
@@ -76,7 +76,7 @@ Point to Note for Newcomers:
 	•	In SwiftUI, adding new images or colors requires updating .xcassets.
 	•	In Next.js, assets can be dynamically imported or directly used from the /public folder.
 
-App
+6. App
 
 SwiftUI	Next.js
 The app’s entry point is defined in @main struct ParcelManagementApp: App.	The app’s entry point is defined in pages/_app.jsx or pages/_app.tsx.
@@ -86,7 +86,7 @@ Point to Note for Newcomers:
 	•	In SwiftUI, navigation and environment setup happen in @main.
 	•	In Next.js, environment setup (e.g., global context providers) is done in _app.tsx.
 
-Utils
+7. Utils
 
 SwiftUI	Next.js
 Helper methods and extensions are stored in a Utils folder (e.g., DateExtensions.swift).	Helper functions are stored in a utils folder (e.g., dateUtils.js).
@@ -95,7 +95,7 @@ Swift uses extensions to add functionality to existing types (e.g., extension Da
 Point to Note for Newcomers:
 	•	Swift’s extensions modify built-in types, while JavaScript relies on separate helper methods or prototypes.
 
-Example Flow
+8. Example Flow
 
 SwiftUI	Next.js
 HomeView: Uses ParcelListViewModel to fetch and display data.	Home.js: Uses useEffect or getStaticProps to fetch and display data.
