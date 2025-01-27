@@ -102,6 +102,8 @@ Utils
 	•	Keeps code clean and DRY.
 
 Example Flow
-	1.	HomeView displays a list of parcels using ParcelListViewModel.
-	2.	Tapping a parcel navigates to ParcelDetailView, which uses ParcelDetailViewModel.
-	3.	ParcelService fetches data from the API and decodes it into the Parcel model.
+<ol>
+	<li>	HomeView displays a list of parcels using ParcelListViewModel.
+	<li>	Tapping a parcel navigates to ParcelDetailView, which uses ParcelDetailViewModel.
+	<li>	ParcelService fetches data from the API and decodes it into the Parcel model.
+</ol>
