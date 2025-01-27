@@ -2,53 +2,14 @@
 
 We will be using the example of a parcel management system for this.
 
-Folder Structure
+<img width="689" alt="Screenshot 2025-01-27 at 9 51 51 PM" src="https://github.com/user-attachments/assets/d8224523-c944-4270-a9cd-cb4731240564" />
 
-ParcelManagementApp/
-│
-├── Models/                      # Data models for the app.
-│   ├── Parcel.swift             # Parcel data model.
-│   ├── User.swift               # User data model.
-│   └── APIResponse.swift        # Generic API response model.
-│
-├── Views/                       # All SwiftUI views (UI components).
-│   ├── HomeView.swift           # Main screen of the app.
-│   ├── ParcelDetailView.swift   # View for parcel details.
-│   ├── AddParcelView.swift      # View for adding a new parcel.
-│   ├── Components/              # Reusable components.
-│   │   ├── ParcelRow.swift      # Row component for displaying parcel info.
-│   │   ├── LoadingView.swift    # Reusable loading indicator.
-│   │   └── ErrorView.swift      # Error message display.
-│   └── Modals/                  # Reusable modals/popups.
-│       └── ConfirmDeleteModal.swift # Modal for delete confirmation.
-│
-├── ViewModels/                  # Manages state and business logic.
-│   ├── ParcelListViewModel.swift # ViewModel for managing parcel list.
-│   ├── ParcelDetailViewModel.swift # ViewModel for parcel detail screen.
-│   ├── UserViewModel.swift      # ViewModel for managing user state.
-│   └── AddParcelViewModel.swift # ViewModel for adding a new parcel.
-│
-├── Services/                    # Handles API/networking and data persistence.
-│   ├── APIClient.swift          # Networking layer for API calls.
-│   ├── ParcelService.swift      # Service for parcel-related API operations.
-│   └── UserService.swift        # Service for user-related API operations.
-│
-├── Resources/                   # Assets like images, colors, and localized strings.
-│   ├── Images.xcassets          # Image assets (e.g., icons, logos).
-│   ├── Colors.swift             # Centralized app colors.
-│   ├── Localization/            # Localized strings for different languages.
-│   │   └── en.lproj/Localizable.strings
-│   └── Fonts/                   # Custom fonts.
-│
-├── App/                         # Entry point and app-wide configurations.
-│   ├── ParcelManagementApp.swift # App entry point (`@main`).
-│   └── AppEnvironment.swift     # Global environment configurations.
-│
-└── Utils/                       # Helper functions and extensions.
-    ├── DateExtensions.swift     # Extensions for working with dates.
-    ├── JSONDecoder+Extensions.swift # Extensions for decoding JSON.
-    ├── Logger.swift             # Logging utility.
-    └── Constants.swift          # App-wide constants (e.g., API URLs).
+<img width="836" alt="Screenshot 2025-01-27 at 10 00 02 PM" src="https://github.com/user-attachments/assets/05f2ba44-e070-4f90-b5ad-477f95df76e7" />
+
+
+Folder Structure :
+
+<img width="750" alt="Screenshot 2025-01-27 at 10 46 47 PM" src="https://github.com/user-attachments/assets/cad6be82-2aab-4ca6-8787-490a74f5ade8" />
 
 
 Key Files and Their Responsibilities
