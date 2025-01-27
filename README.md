@@ -3,14 +3,15 @@
 ### This notes will help you if you come from a background of React or Next.js and want to build apps in SwiftUI
 ### You will need to use Xcode and a Mac by default for this
 
-### Lets learn with the structure and synatx of SwiftUi by using an example of a parcel management system.
-
+## First we will go through difference in project structure and hooks.
 ## Project Structure in Next.js and its equivalent in SwiftUI
 <img width="689" alt="Screenshot 2025-01-27 at 9 51 51 PM" src="https://github.com/user-attachments/assets/d8224523-c944-4270-a9cd-cb4731240564" />
 
 ## useState and useContext hooks in equivalents in SwiftUI.
 <img width="836" alt="Screenshot 2025-01-27 at 10 00 02 PM" src="https://github.com/user-attachments/assets/05f2ba44-e070-4f90-b5ad-477f95df76e7" />
 
+
+## Lets learn with the structure and synatx of SwiftUi by using an example of a parcel management system.
 
 Folder Structure :
 
