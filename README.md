@@ -1,7 +1,7 @@
 # SwiftUI-Notes-By-Nishan
 
-## This notes will help you if you come from a background of React or Next.js and want to build apps in SwiftUI
-## You will need to use Xcode and a Mac by default for this
+### This notes will help you if you come from a background of React or Next.js and want to build apps in SwiftUI
+### You will need to use Xcode and a Mac by default for this
 
 ### Lets learn with the structure and synatx of SwiftUi by using an example of a parcel management system.
 
