@@ -2,10 +2,10 @@
 
 We will be using the example of a parcel management system for this.
 
-## 
+## Project Structure in Next.js and its equivalent in SwiftUI
 <img width="689" alt="Screenshot 2025-01-27 at 9 51 51 PM" src="https://github.com/user-attachments/assets/d8224523-c944-4270-a9cd-cb4731240564" />
 
-## useState and useContext equivalents in SwiftUI.
+## useState and useContext hooks in equivalents in SwiftUI.
 <img width="836" alt="Screenshot 2025-01-27 at 10 00 02 PM" src="https://github.com/user-attachments/assets/05f2ba44-e070-4f90-b5ad-477f95df76e7" />
 
 
